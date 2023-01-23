@@ -484,7 +484,7 @@
             "userELink": "",
             "oneWayELink": "",
             "userOneWayELink": "",
-            "shuffled": true
+            "shuffled": false
         }
     },
     "locations": {

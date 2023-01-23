@@ -113,6 +113,7 @@ import OoT_Deku_Seeds_Icon from './images/OoT_Deku_Seeds_Icon.png';
 import OoT_Deku_Shield_Icon from './images/OoT_Deku_Shield_Icon.png';
 import OoT_Deku_Stick_Icon from './images/OoT_Deku_Stick_Icon.png';
 import OoT_Dins_Fire_Icon from './images/OoT_Dins_Fire_Icon.png';
+import OoT_Double_Defense from './images/OoT_Double_Defense_Icon.png';
 import OoT_Fairy_Bow_Icon from './images/OoT_Fairy_Bow_Icon.png';
 import OoT_Fairy_Ocarina_Icon from './images/OoT_Fairy_Ocarina_Icon.png';
 import OoT_Fairy_Slingshot_Icon from './images/OoT_Fairy_Slingshot_Icon.png';
@@ -122,6 +123,7 @@ import OoT_Gerudo_Token_Icon from './images/OoT_Gerudo_Token_Icon.png';
 import OoT_Giants_Knife_Icon from './images/OoT_Giants_Knife_Icon.png';
 import OoT_Gorons_Bracelet_Icon from './images/OoT_Gorons_Bracelet_Icon.png';
 import OoT_Goron_Tunic_Icon from './images/OoT_Goron_Tunic_Icon.png';
+import OoT_Heart_Container from './images/OoT_Heart_Container_Icon.png';
 import OoT_Hookshot_Icon from './images/OoT_Hookshot_Icon.png';
 import OoT_Hover_Boots_Icon from './images/OoT_Hover_Boots_Icon.png';
 import OoT_Hylian_Shield_Icon from './images/OoT_Hylian_Shield_Icon.png';
@@ -135,6 +137,7 @@ import OoT_Master_Sword_Icon from './images/OoT_Master_Sword_Icon.png';
 import OoT_Megaton_Hammer_Icon from './images/OoT_Megaton_Hammer_Icon.png';
 import OoT_Mirror_Shield_Icon from './images/OoT_Mirror_Shield_Icon.png';
 import OoT_Nayrus_Love_Icon from './images/OoT_Nayrus_Love_Icon.png';
+import OoT_Piece_of_Heart from './images/OoT_Piece_of_Heart_Icon.png';
 import OoT_Silver_Scale_Icon from './images/OoT_Silver_Scale_Icon.png';
 import OoT_Small_Magic_Jar_Icon from './images/OoT_Small_Magic_Jar_Icon.png';
 import OoT_Stone_of_Agony_Icon from './images/OoT_Stone_of_Agony_Icon.png';
@@ -240,6 +243,9 @@ class OotIcon extends React.Component {
             'Bombs': OoT_Bomb_Icon,
             'Deku Stick': OoT_Deku_Stick_Icon,
             'Blue Fire': OoT_Blue_Fire_Icon,
+            'Piece of Heart': OoT_Piece_of_Heart,
+            'Heart Container': OoT_Heart_Container,
+            'Double Defense': OoT_Double_Defense,
         };
         let keyMap = {
             'Forest Temple': 'Fo',

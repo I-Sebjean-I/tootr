@@ -249,6 +249,17 @@ class ItemMenu extends React.Component {
                     </div>
                 </div>
                 <div className={this.props.classes.itemMenuRow}>
+                    <div onClick={this.props.handleFind} data-found-in={this.props.sourceLocation} data-found-item="Piece of Heart">
+                        <OotIcon classes={this.props.classes} itemName="Piece of Heart" className={this.props.classes.locationMenuIcon} />
+                    </div>
+                    <div onClick={this.props.handleFind} data-found-in={this.props.sourceLocation} data-found-item="Heart Container">
+                        <OotIcon classes={this.props.classes} itemName="Heart Container" className={this.props.classes.locationMenuIcon} />
+                    </div>
+                    <div onClick={this.props.handleFind} data-found-in={this.props.sourceLocation} data-found-item="Double Defense">
+                        <OotIcon classes={this.props.classes} itemName="Double Defense" className={this.props.classes.locationMenuIcon} />
+                    </div>
+                </div>
+                <div className={this.props.classes.itemMenuRow}>
                     <div className={this.props.classes.itemMenuClear} onClick={this.props.handleFind} data-found-in={this.props.sourceLocation} data-found-item="">
                         <p className={this.props.classes.locationMenuClear}>Clear Item</p>
                     </div>
